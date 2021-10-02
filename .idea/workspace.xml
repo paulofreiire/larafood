@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f603c56f-0fd8-42d7-997e-054e149757f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/larafood.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larafood.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +177,10 @@
       <option name="presentableId" value="Default" />
       <updated>1604179214638</updated>
       <workItem from="1604179215933" duration="809000" />
-      <workItem from="1630638027717" duration="4487000" />
+      <workItem from="1630638027717" duration="4809000" />
+      <workItem from="1630689540056" duration="597000" />
+      <workItem from="1631390312708" duration="602000" />
+      <workItem from="1633151003681" duration="668000" />
     </task>
     <servers />
   </component>
@@ -200,5 +197,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
