@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Plan;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use voku\helper\ASCII;
 
@@ -20,6 +21,7 @@ class PlanControlller extends Controller
 
     public function index()
     {
+        Log::info('kkkkkkkk');
         $plans = $this->repository->latest()->paginate();
         return view('admin.pages.plans.index', [
             'plans' => $plans
@@ -28,6 +30,7 @@ class PlanControlller extends Controller
 
     public function create()
     {
+
         return view('admin.pages.plans.create');
     }
 
@@ -47,5 +50,16 @@ class PlanControlller extends Controller
         if (!$plan) return redirect()->back();
 
         return view('admin.pages.plans.show', ['plan' => $plan]);
+    }
+
+    public function destroy($url)
+    {
+        $plan = $this->repository->where('url', $url)->first();
+
+        if (!$plan) return redirect()->back();
+
+        $plan->delete();
+
+        return redirect()->route('plans.index');
     }
 }
